@@ -86,7 +86,10 @@ function Header() {
           </div>
         </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-          <img src="https://xsgames.co/randomusers/avatar.php?g=pixel" />
+          <img
+            src="https://xsgames.co/randomusers/avatar.php?g=pixel"
+            alt="user"
+          />
         </div>
       </div>
     </div>
