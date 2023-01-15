@@ -37,7 +37,7 @@ function Header() {
     <div className="sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-white dark:bg-black">
       {loading && <Loader />}
       <div className="flex h-5 items-center">
-        {pageName == "video" && (
+        {pageName === "video" && (
           <div
             className="flex md:hidden md:mr-6 cursor-pointer items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]"
             onClick={mobileMenuToggle}

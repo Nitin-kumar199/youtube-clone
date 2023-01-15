@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import LeftNavMenuItem from "./LeftNavMenuItem";
 import { categories } from "../utils/constants";
 import { Context } from "../context/contextApi";
-import { click } from "@testing-library/user-event/dist/click";
 
 function LeftNav() {
   const { selectCategories, setSelectCategories, mobileMenu } =
